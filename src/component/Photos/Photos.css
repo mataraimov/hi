@@ -1,0 +1,17 @@
+.photo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.photo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+.photo img {
+  width: 100%;
+  border-radius: 6px;
+}

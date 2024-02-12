@@ -1,0 +1,34 @@
+.aws_img{
+  margin-left: 500px;
+}
+
+.box {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background: #bb3535;
+  opacity: 1;
+  border-radius: 0;
+  transform: scale(1);
+  will-change: transform, border-radius, opacity;
+  transition: transform 0.3s ease, border-radius 0.3s ease, opacity 0.5s ease;
+}
+.box-circle {
+  border-radius: 50%;
+}
+
+.box-hide {
+  opacity: 0;
+}
+.box-small {
+  transform: scale(0.5);
+}
+
+.movie {
+  width: 48%;
+  text-align: center;
+  background: red;
+  padding: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 14px;
+}

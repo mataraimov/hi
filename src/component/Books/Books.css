@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.books__column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.books-todo {
+  border-right: 1px solid #aaa;
+}
+
+.book {
+  padding: 20px;
+  margin-bottom: 6px;
+  background: #212121;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 6px #bbb;
+  cursor: pointer;
+}
+
+.book--old {
+  opacity: 0.6;
+  color: #ccc;
+}
