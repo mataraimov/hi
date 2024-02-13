@@ -10,7 +10,7 @@ import Memes from './component/Memes';
 import Cinema from './component/Movies';
 import Todos from './component/Todos';
 import TodoDetail from './component/Todos/TodoDetail';
-import HomePage from './pages/HomePage';
+
 function App() {
   return (
     <>
